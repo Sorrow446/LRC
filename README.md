@@ -28,9 +28,11 @@ LRCs will be parsed in a lists of dicts
 ```
 [{'min': '00', 'sec': '00', 'hun': '00', 'text': 'x'}, {'min': '00', 'sec': '23', 'hun': '29', 'text': "y"}, {'min': '00', 'sec': '23', 'hun': '90', 'text': "z"}]
 ```
-min: minutes,
-sec: seconds,
-hun: second hundredths
+|Key|Info|
+| --- | --- |
+|min|Minutes.
+|sec|Seconds.
+|hun|Second hundredths.
 
 ## Exceptions
 |Exception|Info|
