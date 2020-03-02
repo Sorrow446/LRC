@@ -44,4 +44,4 @@ LRCs are parsed into a list of dicts.
 |Exception|Info|
 | --- | --- |
 |NoLyricsError|No lyrics could be found in the source.
-|ParseError|LRC file is not valid.
+|ParseError|Lyrics are not valid.
