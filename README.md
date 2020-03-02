@@ -30,9 +30,10 @@ LRCs will be parsed in a lists of dicts
 ```
 |Key|Info|
 | --- | --- |
-|min|Minutes.
-|sec|Seconds.
-|hun|Second hundredths.
+|min|Minutes
+|sec|Seconds
+|hun|Second hundredths
+|text|Lyrics
 
 ## Exceptions
 |Exception|Info|
