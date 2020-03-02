@@ -1,7 +1,7 @@
 # LRC
 Rough LRC lyrics parser written in Python.
 
-# Usage
+## Usage
 Parse local lrc:
 ```python
 import lrc
@@ -14,3 +14,9 @@ import lrc
 
 parsed = lrc.parse(r"G:\1.flac")
 ```
+
+## Exceptions
+#### NoLyricsError
+No lyrics could be found in the source.
+#### ParseError
+Your LRC file isn't valid.
