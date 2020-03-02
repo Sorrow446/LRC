@@ -23,6 +23,11 @@ Get line total:
 total = len(parsed)
 ```
 
+## Params
+|Param|Info|Default
+| --- | --- | --- |
+|frame|Which frame to read lyrics from in FLAC files.|lyrics
+
 ## Output
 LRCs are parsed into a list of dicts.
 ```
