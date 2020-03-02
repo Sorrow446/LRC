@@ -24,7 +24,7 @@ total = len(parsed)
 ```
 
 ## Output
-LRCs will be parsed in a lists of dicts
+LRCs are parsed into a lists of dicts.
 ```
 [{'min': '00', 'sec': '00', 'hun': '00', 'text': 'x'}, {'min': '00', 'sec': '23', 'hun': '29', 'text': "y"}, {'min': '00', 'sec': '23', 'hun': '90', 'text': "z"}]
 ```
