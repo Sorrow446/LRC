@@ -2,25 +2,25 @@
 Rough LRC lyrics parser written in Python.
 
 ## Usage
-#### Parse local LRC.
+Parse local LRC:
 ```python
 import lrc
 
 parsed = lrc.parse(r"G:\1.lrc")
 ```
-#### Parse LRC written in FLAC file.
+Parse LRC written in FLAC file:
 ```python
 import lrc
 
 parsed = lrc.parse(r"G:\1.flac")
 ```
-#### Get all text.
+Get all text:
 ```python
 text = [line['text'] for line in parsed]
 ```
-#### Get line total.
+Get line total:
 ```python
-len(parsed)
+total = len(parsed)
 ```
 
 ## Output
@@ -33,7 +33,7 @@ sec: seconds,
 hun: second hundredths
 
 ## Exceptions
-#### NoLyricsError
-No lyrics could be found in the source.
-#### ParseError
-Your LRC file isn't valid.
+|Exception|Info|
+| --- | --- |
+|NoLyricsError|No lyrics could be found in the source.
+|ParseError|LRC file is not valid.
