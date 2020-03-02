@@ -7,10 +7,10 @@ from mutagen.flac import FLAC
 
 REGEX = "^\[(\d{2})\:(\d{2})\.(\d{2})\](.+)"
 
-class ParseError(Exception):
+class NoLyricsError(Exception):
 	pass
 
-class NoLyricsError(Exception):
+class ParseError(Exception):
 	pass
 
 def from_lrc_file(lrc):
