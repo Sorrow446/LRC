@@ -26,7 +26,7 @@ total = len(parsed)
 ## Params
 |Param|Info|Default
 | --- | --- | --- |
-|src|Local LRC or FLAC file path.|-|
+|-|Local LRC or FLAC file path.|-|
 |frame|Which frame to read lyrics from in FLAC files.|lyrics
 
 ## Output
