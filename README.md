@@ -14,7 +14,7 @@ import lrc
 
 parsed = lrc.parse(r"G:\1.flac")
 ```
-#### Get all tex.
+#### Get all text.
 ```python
 text = [line['text'] for line in parsed]
 ```
