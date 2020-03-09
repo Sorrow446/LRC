@@ -1,5 +1,5 @@
 # LRC
-Rough LRC lyrics parser written in Python.
+Rough timed LRC lyrics parser written in Python.
 
 ## Usage
 Parse local LRC:
